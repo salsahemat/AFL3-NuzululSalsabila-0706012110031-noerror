@@ -12,6 +12,8 @@ struct LandmarkList: View {
     //called  showFavoritesOnly set to false to see how the list reacts
     @State private var showFavoritesOnly = false
     @State private var filter = FilterCategory.all
+    //set the selectedLandmark
+    @State private var selectedLandmark: Landmark?
     
     //describe filter states
     enum FilterCategory: String, CaseIterable, Identifiable {
@@ -31,22 +33,31 @@ struct LandmarkList: View {
         }
     }
     
+    //Returns a string that is used as the title for the navigation bar in the LandmarkList view
     var title: String {
         let title = filter == .all ? "Landmarks" : filter.rawValue
         return showFavoritesOnly ? "Favorite \(title)" : title
     }
     
+    //Returns the index of the selectedLandmark in the modelData.landmarks array
+    var index: Int? {
+        modelData.landmarks.firstIndex(where: { $0.id == selectedLandmark?.id })
+    }
+    
     
     var body: some View {
-        NavigationView {
+        //navigation stack is the new navigation list
+        NavigationStack{
             //creates one LandmarkRow for each element in the landmarks array
-            List {
+            List(selection: $selectedLandmark) {
                 ForEach(filteredLandmarks) { landmark in
                     NavigationLink {
                         LandmarkDetail(landmark: landmark)
                     } label: {
                         LandmarkRow(landmark: landmark)
                     }
+                    //associates a particular landmark in the ForEach
+                    .tag(landmark)
                 }
             }
             .navigationTitle(title)
@@ -75,6 +86,8 @@ struct LandmarkList: View {
             //placeholder for the second view in wide layouts
             Text("Select a Landmark")
         }
+        //providing a binding the value from the landmarks array
+        .focusedValue(\.selectedLandmark, $modelData.landmarks[index ?? 0])
     }
 }
 
