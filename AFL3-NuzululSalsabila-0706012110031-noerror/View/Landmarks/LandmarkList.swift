@@ -38,6 +38,8 @@ struct LandmarkList: View {
                 }
             }
             .navigationTitle("Landmarks")
+            //ensures that the list never becomes too small
+            .frame(minWidth: 300)
         }
     }
 }
