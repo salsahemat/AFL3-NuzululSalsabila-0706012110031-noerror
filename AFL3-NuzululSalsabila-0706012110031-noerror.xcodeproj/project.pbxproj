@@ -31,6 +31,21 @@
 		3A0593CE29FAE360000C64D2 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0593CD29FAE360000C64D2 /* FeatureCard.swift */; };
 		3A0593D029FAE3C4000C64D2 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0593CF29FAE3C4000C64D2 /* PageView.swift */; };
 		3A0593D229FAE671000C64D2 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0593D129FAE671000C64D2 /* PageControl.swift */; };
+		3A0593EE29FAEBB3000C64D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0593ED29FAEBB3000C64D2 /* ContentView.swift */; };
+		3A0593F029FAEBB5000C64D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0593EF29FAEBB5000C64D2 /* Assets.xcassets */; };
+		3A0593F329FAEBB5000C64D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0593F229FAEBB5000C64D2 /* Preview Assets.xcassets */; };
+		3A0593F829FAEC53000C64D2 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2B46A29FABDA900E26086 /* Landmark.swift */; };
+		3A0593F929FAEC53000C64D2 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2B47329FABF7800E26086 /* LandmarkRow.swift */; };
+		3A0593FA29FAEC53000C64D2 /* AFL3_NuzululSalsabila_0706012110031_noerrorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2B45429FA8A4F00E26086 /* AFL3_NuzululSalsabila_0706012110031_noerrorApp.swift */; };
+		3A0593FB29FAEC53000C64D2 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2B46229FABB2300E26086 /* CircleImage.swift */; };
+		3A0593FC29FAEC53000C64D2 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2B47529FAC09000E26086 /* LandmarkList.swift */; };
+		3A0593FD29FAEC53000C64D2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2B46C29FABE9700E26086 /* ModelData.swift */; };
+		3A0593FE29FAEC53000C64D2 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A0593AB29FACF7A000C64D2 /* hikeData.json */; };
+		3A0593FF29FAEC53000C64D2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2B46429FABB8600E26086 /* MapView.swift */; };
+		3A05940029FAEC53000C64D2 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0593BF29FADB08000C64D2 /* Profile.swift */; };
+		3A05940129FAEC53000C64D2 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05939C29FAC94F000C64D2 /* FavoriteButton.swift */; };
+		3A05940229FAEC53000C64D2 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0593AD29FACF9E000C64D2 /* Hike.swift */; };
+		3A05940329FAEC53000C64D2 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AA2B46629FABD3600E26086 /* landmarkData.json */; };
 		3AA2B45529FA8A4F00E26086 /* AFL3_NuzululSalsabila_0706012110031_noerrorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2B45429FA8A4F00E26086 /* AFL3_NuzululSalsabila_0706012110031_noerrorApp.swift */; };
 		3AA2B45729FA8A4F00E26086 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2B45629FA8A4F00E26086 /* ContentView.swift */; };
 		3AA2B45929FA8A5200E26086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA2B45829FA8A5200E26086 /* Assets.xcassets */; };
@@ -70,6 +85,11 @@
 		3A0593CD29FAE360000C64D2 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		3A0593CF29FAE3C4000C64D2 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		3A0593D129FAE671000C64D2 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		3A0593E929FAEBB3000C64D2 /* MacAFL3s.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacAFL3s.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0593ED29FAEBB3000C64D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A0593EF29FAEBB5000C64D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A0593F229FAEBB5000C64D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A0593F429FAEBB5000C64D2 /* MacAFL3s.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacAFL3s.entitlements; sourceTree = "<group>"; };
 		3AA2B45129FA8A4F00E26086 /* AFL3-NuzululSalsabila-0706012110031-noerror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFL3-NuzululSalsabila-0706012110031-noerror.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA2B45429FA8A4F00E26086 /* AFL3_NuzululSalsabila_0706012110031_noerrorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_NuzululSalsabila_0706012110031_noerrorApp.swift; sourceTree = "<group>"; };
 		3AA2B45629FA8A4F00E26086 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +106,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3A0593E629FAEBB3000C64D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3AA2B44E29FA8A4F00E26086 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -171,10 +198,30 @@
 			path = PageView;
 			sourceTree = "<group>";
 		};
+		3A0593EA29FAEBB3000C64D2 /* MacAFL3s */ = {
+			isa = PBXGroup;
+			children = (
+				3A0593ED29FAEBB3000C64D2 /* ContentView.swift */,
+				3A0593EF29FAEBB5000C64D2 /* Assets.xcassets */,
+				3A0593F429FAEBB5000C64D2 /* MacAFL3s.entitlements */,
+				3A0593F129FAEBB5000C64D2 /* Preview Content */,
+			);
+			path = MacAFL3s;
+			sourceTree = "<group>";
+		};
+		3A0593F129FAEBB5000C64D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3A0593F229FAEBB5000C64D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		3AA2B44829FA8A4F00E26086 = {
 			isa = PBXGroup;
 			children = (
 				3AA2B45329FA8A4F00E26086 /* AFL3-NuzululSalsabila-0706012110031-noerror */,
+				3A0593EA29FAEBB3000C64D2 /* MacAFL3s */,
 				3AA2B45229FA8A4F00E26086 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -183,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				3AA2B45129FA8A4F00E26086 /* AFL3-NuzululSalsabila-0706012110031-noerror.app */,
+				3A0593E929FAEBB3000C64D2 /* MacAFL3s.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -211,8 +259,8 @@
 		3AA2B46E29FABEE100E26086 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3A0593CA29FAE237000C64D2 /* PageView */,
 				3AA2B45629FA8A4F00E26086 /* ContentView.swift */,
+				3A0593CA29FAE237000C64D2 /* PageView */,
 				3A0593C129FADB31000C64D2 /* Profiles */,
 				3A0593B829FAD411000C64D2 /* Categories */,
 				3A0593AF29FAD00D000C64D2 /* Hikes */,
@@ -246,6 +294,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3A0593E829FAEBB3000C64D2 /* MacAFL3s */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A0593F529FAEBB5000C64D2 /* Build configuration list for PBXNativeTarget "MacAFL3s" */;
+			buildPhases = (
+				3A0593E529FAEBB3000C64D2 /* Sources */,
+				3A0593E629FAEBB3000C64D2 /* Frameworks */,
+				3A0593E729FAEBB3000C64D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacAFL3s;
+			productName = MacAFL3s;
+			productReference = 3A0593E929FAEBB3000C64D2 /* MacAFL3s.app */;
+			productType = "com.apple.product-type.application";
+		};
 		3AA2B45029FA8A4F00E26086 /* AFL3-NuzululSalsabila-0706012110031-noerror */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AA2B45F29FA8A5200E26086 /* Build configuration list for PBXNativeTarget "AFL3-NuzululSalsabila-0706012110031-noerror" */;
@@ -273,6 +338,9 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					3A0593E829FAEBB3000C64D2 = {
+						CreatedOnToolsVersion = 14.3;
+					};
 					3AA2B45029FA8A4F00E26086 = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -292,11 +360,23 @@
 			projectRoot = "";
 			targets = (
 				3AA2B45029FA8A4F00E26086 /* AFL3-NuzululSalsabila-0706012110031-noerror */,
+				3A0593E829FAEBB3000C64D2 /* MacAFL3s */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3A0593E729FAEBB3000C64D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0593F329FAEBB5000C64D2 /* Preview Assets.xcassets in Resources */,
+				3A05940329FAEC53000C64D2 /* landmarkData.json in Resources */,
+				3A0593FE29FAEC53000C64D2 /* hikeData.json in Resources */,
+				3A0593F029FAEBB5000C64D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3AA2B44F29FA8A4F00E26086 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -311,6 +391,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3A0593E529FAEBB3000C64D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0593EE29FAEBB3000C64D2 /* ContentView.swift in Sources */,
+				3A0593FF29FAEC53000C64D2 /* MapView.swift in Sources */,
+				3A0593FC29FAEC53000C64D2 /* LandmarkList.swift in Sources */,
+				3A05940129FAEC53000C64D2 /* FavoriteButton.swift in Sources */,
+				3A05940229FAEC53000C64D2 /* Hike.swift in Sources */,
+				3A0593F829FAEC53000C64D2 /* Landmark.swift in Sources */,
+				3A0593F929FAEC53000C64D2 /* LandmarkRow.swift in Sources */,
+				3A0593FA29FAEC53000C64D2 /* AFL3_NuzululSalsabila_0706012110031_noerrorApp.swift in Sources */,
+				3A0593FB29FAEC53000C64D2 /* CircleImage.swift in Sources */,
+				3A05940029FAEC53000C64D2 /* Profile.swift in Sources */,
+				3A0593FD29FAEC53000C64D2 /* ModelData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3AA2B44D29FA8A4F00E26086 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,6 +451,64 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		3A0593F629FAEBB5000C64D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacAFL3s/MacAFL3s.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacAFL3s/Preview Content\"";
+				DEVELOPMENT_TEAM = 7SU4KK4G7H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uc.MacAFL3s;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3A0593F729FAEBB5000C64D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacAFL3s/MacAFL3s.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacAFL3s/Preview Content\"";
+				DEVELOPMENT_TEAM = 7SU4KK4G7H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uc.MacAFL3s;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		3AA2B45D29FA8A5200E26086 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -528,6 +684,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3A0593F529FAEBB5000C64D2 /* Build configuration list for PBXNativeTarget "MacAFL3s" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0593F629FAEBB5000C64D2 /* Debug */,
+				3A0593F729FAEBB5000C64D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3AA2B44C29FA8A4F00E26086 /* Build configuration list for PBXProject "AFL3-NuzululSalsabila-0706012110031-noerror" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
