@@ -171,9 +171,9 @@
 		3AA2B46E29FABEE100E26086 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3AA2B45629FA8A4F00E26086 /* ContentView.swift */,
 				3A0593B829FAD411000C64D2 /* Categories */,
 				3A0593AF29FAD00D000C64D2 /* Hikes */,
-				3AA2B45629FA8A4F00E26086 /* ContentView.swift */,
 				3A0593AA29FACE3C000C64D2 /* Landmarks */,
 				3A0593A929FACDDA000C64D2 /* Badges */,
 				3A05939E29FAC9C1000C64D2 /* Helpers */,

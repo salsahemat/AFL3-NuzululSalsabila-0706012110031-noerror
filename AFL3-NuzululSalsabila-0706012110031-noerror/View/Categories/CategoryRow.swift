@@ -23,10 +23,15 @@ struct CategoryRow: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 0) {
                     ForEach(items) { landmark in
+                        //represent the landmark by the card
+                        NavigationLink {
+                            LandmarkDetail(landmark: landmark)
+                        } label: {
                             CategoryItem(landmark: landmark)
                         }
                     }
                 }
+            }
             
             //modifier sets the height of the ScrollView to 185 points
             .frame(height: 185)
