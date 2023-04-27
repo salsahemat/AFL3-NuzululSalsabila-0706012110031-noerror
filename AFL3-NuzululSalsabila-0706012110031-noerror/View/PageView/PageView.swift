@@ -10,13 +10,18 @@ import SwiftUI
 //declare PageViewController as a child view
 struct PageView<Page: View>: View {
     var pages: [Page]
+    //declare a state variable whose value can change during the lifecycle of the view
     @State private var currentPage = 0
     
     var body: some View {
+        
         //pass a binding to the property
-        VStack {
+        ZStack(alignment: .bottomTrailing) {
             PageViewController(pages: pages, currentPage: $currentPage)
-            Text("Current Page: \(currentPage)")
+            //showing the correct values
+            PageControl(numberOfPages: pages.count, currentPage: $currentPage)
+                .frame(width: CGFloat(pages.count * 18))
+                .padding(.trailing)
         }
     }
 }

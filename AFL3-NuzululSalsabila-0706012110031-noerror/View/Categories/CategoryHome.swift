@@ -17,6 +17,8 @@ struct CategoryHome: View {
         NavigationView {
             //Display the categories in Landmarks
             List {
+                PageView(pages: modelData.features.map { FeatureCard(landmark: $0) })
+                    .aspectRatio(3 / 2, contentMode: .fit)
                 //displays one of the featured landmarks
                 modelData.features[0].image
                     .resizable()
