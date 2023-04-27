@@ -25,6 +25,11 @@ struct LandmarkRow: View {
 struct LandmarkRow_Previews: PreviewProvider {
     static var previews: some View {
         //specifying the first element of the landmarks array
-        LandmarkRow(landmark: landmarks[0])
+        Group {
+            LandmarkRow(landmark: landmarks[0])
+            LandmarkRow(landmark: landmarks[1])
+        }
+        //set a size that approximates a row in a list
+        .previewLayout(.fixed(width: 300, height: 70))
     }
 }
