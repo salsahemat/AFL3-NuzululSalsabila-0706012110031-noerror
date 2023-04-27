@@ -12,6 +12,7 @@
 		3A0593A229FACB93000C64D2 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0593A129FACB93000C64D2 /* BadgeBackground.swift */; };
 		3A0593A429FACCB8000C64D2 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0593A329FACCB8000C64D2 /* BadgeSymbol.swift */; };
 		3A0593A629FACCFD000C64D2 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0593A529FACCFD000C64D2 /* RotatedBadgeSymbol.swift */; };
+		3A0593A829FACD93000C64D2 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0593A729FACD93000C64D2 /* Badge.swift */; };
 		3AA2B45529FA8A4F00E26086 /* AFL3_NuzululSalsabila_0706012110031_noerrorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2B45429FA8A4F00E26086 /* AFL3_NuzululSalsabila_0706012110031_noerrorApp.swift */; };
 		3AA2B45729FA8A4F00E26086 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2B45629FA8A4F00E26086 /* ContentView.swift */; };
 		3AA2B45929FA8A5200E26086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA2B45829FA8A5200E26086 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		3A0593A129FACB93000C64D2 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		3A0593A329FACCB8000C64D2 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		3A0593A529FACCFD000C64D2 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		3A0593A729FACD93000C64D2 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		3AA2B45129FA8A4F00E26086 /* AFL3-NuzululSalsabila-0706012110031-noerror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFL3-NuzululSalsabila-0706012110031-noerror.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA2B45429FA8A4F00E26086 /* AFL3_NuzululSalsabila_0706012110031_noerrorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_NuzululSalsabila_0706012110031_noerrorApp.swift; sourceTree = "<group>"; };
 		3AA2B45629FA8A4F00E26086 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,28 @@
 				3A05939C29FAC94F000C64D2 /* FavoriteButton.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3A0593A929FACDDA000C64D2 /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				3A0593A729FACD93000C64D2 /* Badge.swift */,
+				3A0593A129FACB93000C64D2 /* BadgeBackground.swift */,
+				3A0593A329FACCB8000C64D2 /* BadgeSymbol.swift */,
+				3A0593A529FACCFD000C64D2 /* RotatedBadgeSymbol.swift */,
+				3A05939F29FACB1A000C64D2 /* HexagonParameters.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
+		3A0593AA29FACE3C000C64D2 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				3AA2B47529FAC09000E26086 /* LandmarkList.swift */,
+				3AA2B47329FABF7800E26086 /* LandmarkRow.swift */,
+				3AA2B47729FAC15000E26086 /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
 		3AA2B44829FA8A4F00E26086 = {
@@ -108,15 +132,10 @@
 		3AA2B46E29FABEE100E26086 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3A05939E29FAC9C1000C64D2 /* Helpers */,
 				3AA2B45629FA8A4F00E26086 /* ContentView.swift */,
-				3AA2B47329FABF7800E26086 /* LandmarkRow.swift */,
-				3AA2B47529FAC09000E26086 /* LandmarkList.swift */,
-				3AA2B47729FAC15000E26086 /* LandmarkDetail.swift */,
-				3A05939F29FACB1A000C64D2 /* HexagonParameters.swift */,
-				3A0593A129FACB93000C64D2 /* BadgeBackground.swift */,
-				3A0593A329FACCB8000C64D2 /* BadgeSymbol.swift */,
-				3A0593A529FACCFD000C64D2 /* RotatedBadgeSymbol.swift */,
+				3A0593AA29FACE3C000C64D2 /* Landmarks */,
+				3A0593A929FACDDA000C64D2 /* Badges */,
+				3A05939E29FAC9C1000C64D2 /* Helpers */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -210,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AA2B45729FA8A4F00E26086 /* ContentView.swift in Sources */,
+				3A0593A829FACD93000C64D2 /* Badge.swift in Sources */,
 				3AA2B46529FABB8600E26086 /* MapView.swift in Sources */,
 				3AA2B45529FA8A4F00E26086 /* AFL3_NuzululSalsabila_0706012110031_noerrorApp.swift in Sources */,
 				3A05939D29FAC94F000C64D2 /* FavoriteButton.swift in Sources */,
