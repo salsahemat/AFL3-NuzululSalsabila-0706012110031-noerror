@@ -18,6 +18,12 @@ struct LandmarkRow: View {
             Text(landmark.name)
             
             Spacer()
+            
+            //test whether the current landmark is favorite/not
+            if landmark.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }
