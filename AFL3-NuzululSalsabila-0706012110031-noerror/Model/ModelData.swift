@@ -13,6 +13,8 @@ final class ModelData: ObservableObject {
     // an array of landmarks that initialize from landmarkData.json
     @Published var landmarks: [Landmark] = load("landmarkData.json")
     var hikes: [Hike] = load("hikeData.json")
+    // include an instance of the user profile
+    @Published var profile = Profile.default
     
     var features: [Landmark] {
         landmarks.filter { $0.isFeatured }
