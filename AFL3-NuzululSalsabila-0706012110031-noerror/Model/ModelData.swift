@@ -12,6 +12,7 @@ import Combine
 final class ModelData: ObservableObject {
     // an array of landmarks that initialize from landmarkData.json
     @Published var landmarks: [Landmark] = load("landmarkData.json")
+    var hikes: [Hike] = load("hikeData.json")
 }
 
 
