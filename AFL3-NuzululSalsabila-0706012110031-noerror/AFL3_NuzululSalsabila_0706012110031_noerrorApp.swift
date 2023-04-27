@@ -15,5 +15,8 @@ struct AFL3_NuzululSalsabila_0706012110031_noerrorApp: App {
             ContentView()
                 .environmentObject(modelData)
         }
+        .commands {
+            LandmarkCommands()
+        }
     }
 }
