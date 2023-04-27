@@ -12,6 +12,7 @@
 		3AA2B45929FA8A5200E26086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA2B45829FA8A5200E26086 /* Assets.xcassets */; };
 		3AA2B45C29FA8A5200E26086 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA2B45B29FA8A5200E26086 /* Preview Assets.xcassets */; };
 		3AA2B46329FABB2300E26086 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2B46229FABB2300E26086 /* CircleImage.swift */; };
+		3AA2B46529FABB8600E26086 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2B46429FABB8600E26086 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		3AA2B45829FA8A5200E26086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AA2B45B29FA8A5200E26086 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3AA2B46229FABB2300E26086 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		3AA2B46429FABB8600E26086 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				3AA2B45429FA8A4F00E26086 /* AFL3_NuzululSalsabila_0706012110031_noerrorApp.swift */,
 				3AA2B46229FABB2300E26086 /* CircleImage.swift */,
+				3AA2B46429FABB8600E26086 /* MapView.swift */,
 				3AA2B45629FA8A4F00E26086 /* ContentView.swift */,
 				3AA2B45829FA8A5200E26086 /* Assets.xcassets */,
 				3AA2B45A29FA8A5200E26086 /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AA2B45729FA8A4F00E26086 /* ContentView.swift in Sources */,
+				3AA2B46529FABB8600E26086 /* MapView.swift in Sources */,
 				3AA2B45529FA8A4F00E26086 /* AFL3_NuzululSalsabila_0706012110031_noerrorApp.swift in Sources */,
 				3AA2B46329FABB2300E26086 /* CircleImage.swift in Sources */,
 			);
