@@ -18,5 +18,11 @@ struct AFL3_NuzululSalsabila_0706012110031_noerrorApp: App {
         .commands {
             LandmarkCommands()
         }
+        
+        #if os(macOS)
+        Settings {
+            LandmarkSettings()
+        }
+        #endif
     }
 }

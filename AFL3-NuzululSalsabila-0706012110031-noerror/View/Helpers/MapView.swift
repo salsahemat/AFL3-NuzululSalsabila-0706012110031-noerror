@@ -8,34 +8,51 @@
 import SwiftUI
 import MapKit
 
+//Define mapview to show maps
 struct MapView: View {
+    //save coordinate geographis
     var coordinate: CLLocationCoordinate2D
-    //holds the region information for the map
-    @State private var region = MKCoordinateRegion()
     
+    //takes on the medium zoom level by default
+    @AppStorage("MapView.zoom")
+    private var zoom: Zoom = .medium
     
-    //takes a binding to the region
-    var body: some View {
-        Map(coordinateRegion: $region)
-        //calculated the region based on current coordinate
-            .onAppear {
-                setRegion(coordinate)
-            }
+    //characterize the zoom level
+    enum Zoom: String, CaseIterable, Identifiable {
+        case near = "Near"
+        case medium = "Medium"
+        case far = "Far"
+        
+        var id: Zoom {
+            return self
+        }
     }
-    //updates the region based on a coordinate value
-    private func setRegion(_ coordinate: CLLocationCoordinate2D) {
-        region = MKCoordinateRegion(
+    
+    //construct the region property to a value that depends on zoom
+    var delta: CLLocationDegrees {
+        switch zoom {
+        case .near: return 0.02
+        case .medium: return 0.2
+        case .far: return 2
+        }
+    }
+    
+    var body: some View {
+        //reference to state private var region
+        Map(coordinateRegion: .constant(region))
+    }
+    //method that updates the region based on a coordinate value
+    var region: MKCoordinateRegion {
+        MKCoordinateRegion(
             center: coordinate,
-            span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2)
+            span: MKCoordinateSpan(latitudeDelta: delta, longitudeDelta: delta)
         )
     }
 }
 
-
-
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        //pass a fixed coordinate
-        MapView(coordinate: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868))
+        //update the preview provider to pass a fixed coordinate
+        MapView(coordinate:CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868))
     }
 }

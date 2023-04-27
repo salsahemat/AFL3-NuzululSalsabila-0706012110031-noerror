@@ -50,6 +50,8 @@
 		3A05940629FAEDBB000C64D2 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05940529FAEDBB000C64D2 /* LandmarkDetail.swift */; };
 		3A05940829FAF0F2000C64D2 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05940729FAF0F2000C64D2 /* LandmarkCommands.swift */; };
 		3A05940929FAF0F2000C64D2 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05940729FAF0F2000C64D2 /* LandmarkCommands.swift */; };
+		3A05940B29FAF5B5000C64D2 /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05940A29FAF5B5000C64D2 /* LandmarkSettings.swift */; };
+		3A05940C29FAF5B5000C64D2 /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A05940A29FAF5B5000C64D2 /* LandmarkSettings.swift */; };
 		3AA2B45529FA8A4F00E26086 /* AFL3_NuzululSalsabila_0706012110031_noerrorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2B45429FA8A4F00E26086 /* AFL3_NuzululSalsabila_0706012110031_noerrorApp.swift */; };
 		3AA2B45729FA8A4F00E26086 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2B45629FA8A4F00E26086 /* ContentView.swift */; };
 		3AA2B45929FA8A5200E26086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA2B45829FA8A5200E26086 /* Assets.xcassets */; };
@@ -96,6 +98,7 @@
 		3A0593F429FAEBB5000C64D2 /* MacAFL3s.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacAFL3s.entitlements; sourceTree = "<group>"; };
 		3A05940529FAEDBB000C64D2 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		3A05940729FAF0F2000C64D2 /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		3A05940A29FAF5B5000C64D2 /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 		3AA2B45129FA8A4F00E26086 /* AFL3-NuzululSalsabila-0706012110031-noerror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFL3-NuzululSalsabila-0706012110031-noerror.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA2B45429FA8A4F00E26086 /* AFL3_NuzululSalsabila_0706012110031_noerrorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_NuzululSalsabila_0706012110031_noerrorApp.swift; sourceTree = "<group>"; };
 		3AA2B45629FA8A4F00E26086 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -210,6 +213,7 @@
 				3A0593ED29FAEBB3000C64D2 /* ContentView.swift */,
 				3A05940529FAEDBB000C64D2 /* LandmarkDetail.swift */,
 				3A05940729FAF0F2000C64D2 /* LandmarkCommands.swift */,
+				3A05940A29FAF5B5000C64D2 /* LandmarkSettings.swift */,
 				3A0593EF29FAEBB5000C64D2 /* Assets.xcassets */,
 				3A0593F429FAEBB5000C64D2 /* MacAFL3s.entitlements */,
 				3A0593F129FAEBB5000C64D2 /* Preview Content */,
@@ -406,6 +410,7 @@
 			files = (
 				3A0593EE29FAEBB3000C64D2 /* ContentView.swift in Sources */,
 				3A0593FF29FAEC53000C64D2 /* MapView.swift in Sources */,
+				3A05940C29FAF5B5000C64D2 /* LandmarkSettings.swift in Sources */,
 				3A0593FC29FAEC53000C64D2 /* LandmarkList.swift in Sources */,
 				3A05940129FAEC53000C64D2 /* FavoriteButton.swift in Sources */,
 				3A05940929FAF0F2000C64D2 /* LandmarkCommands.swift in Sources */,
@@ -444,6 +449,7 @@
 				3A0593C329FADB4A000C64D2 /* ProfileHost.swift in Sources */,
 				3A0593AE29FACF9E000C64D2 /* Hike.swift in Sources */,
 				3A0593A629FACCFD000C64D2 /* RotatedBadgeSymbol.swift in Sources */,
+				3A05940B29FAF5B5000C64D2 /* LandmarkSettings.swift in Sources */,
 				3A0593D029FAE3C4000C64D2 /* PageView.swift in Sources */,
 				3A0593A429FACCB8000C64D2 /* BadgeSymbol.swift in Sources */,
 				3A0593C929FAE07A000C64D2 /* ProfileEditor.swift in Sources */,
