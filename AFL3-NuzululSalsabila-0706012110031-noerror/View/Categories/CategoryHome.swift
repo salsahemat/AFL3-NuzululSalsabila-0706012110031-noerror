@@ -15,9 +15,20 @@ struct CategoryHome: View {
         NavigationView {
             //Display the categories in Landmarks
             List {
+                //displays one of the featured landmarks
+                modelData.features[0].image
+                    .resizable()
+                    .scaledToFill()
+                    .frame(height: 200)
+                    .clipped()
+                    .listRowInsets(EdgeInsets())
+                
                 ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
-                    Text(key)
+                    //pass category information to instances of the row type
+                    CategoryRow(categoryName: key, items: modelData.categories[key]!)
                 }
+                //extend to the edges of the display
+                .listRowInsets(EdgeInsets())
             }
             .navigationTitle("Featured")
         }
