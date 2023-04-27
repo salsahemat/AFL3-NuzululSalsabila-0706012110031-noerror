@@ -11,6 +11,8 @@ import SwiftUI
 struct CategoryHome: View {
     //access an instance of ModelData
     @EnvironmentObject var modelData: ModelData
+    @State private var showingProfile = false
+    
     var body: some View {
         NavigationView {
             //Display the categories in Landmarks
@@ -30,7 +32,19 @@ struct CategoryHome: View {
                 //extend to the edges of the display
                 .listRowInsets(EdgeInsets())
             }
+            .listStyle(.inset)
             .navigationTitle("Featured")
+            .toolbar {
+                Button {
+                    showingProfile.toggle()
+                } label: {
+                    Label("User Profile", systemImage: "person.crop.circle")
+                }
+            }
+            .sheet(isPresented: $showingProfile) {
+                ProfileHost()
+                    .environmentObject(modelData)
+            }
         }
     }
 }
