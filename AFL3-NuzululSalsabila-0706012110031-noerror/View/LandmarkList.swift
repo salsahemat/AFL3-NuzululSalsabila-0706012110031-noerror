@@ -13,7 +13,7 @@ struct LandmarkList: View {
             //creates one LandmarkRow for each element in the landmarks array
             List(landmarks) { landmark in
                 NavigationLink {
-                    LandmarkDetail()
+                    LandmarkDetail(landmark: landmark)
                 } label: {
                     LandmarkRow(landmark: landmark)
                 }

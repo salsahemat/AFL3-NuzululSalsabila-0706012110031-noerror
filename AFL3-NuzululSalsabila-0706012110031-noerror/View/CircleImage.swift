@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct CircleImage: View {
+    var image: Image
     var body: some View {
-        Image("turtlerock")
+        image
         //apply the circular clipping shape to the image
             .clipShape(Circle())
         //give the image a border
@@ -21,6 +22,7 @@ struct CircleImage: View {
 }
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        CircleImage()
+        //pass the image of Turtle Rock
+        CircleImage(image: Image("turtlerock"))
     }
 }
